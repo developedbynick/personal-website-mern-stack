@@ -1,0 +1,22 @@
+{
+  "name": "nicholas-smiths-personal-website-backend",
+  "version": "1.0.0",
+  "description": "The Backend for Nicholas Smith's Personal Website.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index"
+  },
+  "author": "Nicholas D. Smith",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.5.5",
+    "twilio": "^3.82.0",
+    "validator": "^13.7.0"
+  }
+}
